@@ -211,13 +211,12 @@
 </div>
 
           
-
+          
+            <span class="archive-article-date">
+              阅读量 <span id="busuanzi_value_page_pv"></span>
+            </span>
         
         
-          <span class="archive-article-date">
-            阅读量 <span id="busuanzi_value_page_pv"></span>
-          </span>
-      
       </header>
     
     <div class="article-entry" itemprop="articleBody">
@@ -366,6 +365,22 @@
 
   
 
+  
+  <div id="gitment-ctn"></div> 
+<link rel="stylesheet" href="//imsun.github.io/gitment/style/default.css">
+<script src="//imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+  id: "http://yoursite.com/2018/11/11/hello-world/",
+  owner: 'whs1993',
+  repo: 'whs1993.github.io',
+  oauth: {
+    client_id: 'bb3a622a662fddbcc0cc',
+    client_secret: '56c78cb9b34849d8cfaed362e39cca12e95e2179',
+  },
+})
+gitment.render('gitment-ctn')
+</script>
   
 
 
